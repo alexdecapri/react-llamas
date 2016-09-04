@@ -1,0 +1,10 @@
+.ll-thumbnail {
+  height: 100%;
+}
+
+.ll-container {
+  height: 64px;
+  width: 64px;
+  overflow: hidden;
+  border-radius: 3px;
+}

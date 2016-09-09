@@ -6,6 +6,10 @@ import SongList from '../components/song_list';
 
 const BASE_URL = 'https://api.spotify.com/v1/search?type=track&';
 
+const style = {
+  marginTop: "50px"
+};
+
 class SpotifyContainer extends Component {
   constructor(props) {
     super(props)
@@ -35,7 +39,10 @@ class SpotifyContainer extends Component {
   render() {
     return (
       <div>
-        <h2 className="text-center">Spotify Container</h2>
+        <h2
+          className="text-center"
+          style={style}>
+          Spotify Container</h2>
         <SearchBar
           onSongSearch={this.songSearch} />
         <SongList

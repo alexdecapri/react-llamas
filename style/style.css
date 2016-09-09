@@ -13,3 +13,8 @@
   height: 64px;
   width: 64px;
 }
+
+iframe {
+  width: 100%;
+  max-width: 500px;
+}

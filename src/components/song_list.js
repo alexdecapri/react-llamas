@@ -12,7 +12,7 @@ const SongList = (props) => {
   return (
     <div>
       <h2>SongList</h2>
-      <ul className="col-md-4 list-group">
+      <ul className="col-sm-8 list-group">
         {songItems}
       </ul>
     </div>

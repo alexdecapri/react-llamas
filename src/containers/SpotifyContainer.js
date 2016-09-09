@@ -7,7 +7,7 @@ import SongList from '../components/song_list';
 const BASE_URL = 'https://api.spotify.com/v1/search?type=track&';
 
 const style = {
-  marginTop: "50px"
+  marginTop: "80px"
 };
 
 class SpotifyContainer extends Component {
@@ -42,7 +42,7 @@ class SpotifyContainer extends Component {
         <h2
           className="text-center"
           style={style}>
-          Spotify Container</h2>
+          Whether you're loading up your camel or already on a long journey with your goofy animal friend, pick some songs to make an awesome playlist.</h2>
         <SearchBar
           onSongSearch={this.songSearch} />
         <SongList

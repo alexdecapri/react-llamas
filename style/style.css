@@ -36,6 +36,10 @@ body {
   background: url('../src/images/cover.jpg') no-repeat center;
 }
 
+#input {
+  width: 200px;
+}
+
 /*body, html {
   margin: 0;
   padding: 0;

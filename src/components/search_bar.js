@@ -20,8 +20,11 @@ class SearchBar extends Component {
   render() {
     return (
       <div className="search-bar text-center">
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit} className="form-inline">
+          <div className="form-group">
           <input
+            className="form-control"
+            id="input"
             placeholder="Search Spotify for a song..."
             value={this.state.term}
             onChange={event => this.onInputChange(event.target.value)} />
@@ -29,6 +32,7 @@ class SearchBar extends Component {
             className="btn btn-success">
             Search
           </button>
+          </div>
         </form>
       </div>
     )
@@ -37,6 +41,7 @@ class SearchBar extends Component {
   handleSubmit(e) {
     e.preventDefault();
     this.props.onSongSearch(this.state.term);
+    this.setState({ term: '' });
   }
 
   // handleSongSearch() {
@@ -47,9 +52,9 @@ class SearchBar extends Component {
   onInputChange(event) {
     let term = event;
     this.setState({term});
-    setTimeout(() => {
-         console.log('this.state.term', this.state.term);
-    });
+    // setTimeout(() => {
+    //      console.log('this.state.term', this.state.term);
+    // });
   }
 
 }

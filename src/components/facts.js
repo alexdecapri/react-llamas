@@ -2,7 +2,7 @@ import React from 'react';
 
 function Facts () {
   return (
-    <div>
+    <div className="col-sm-8 col-sm-offset-2">
       <div className="media wow fadeInUp" data-wow-delay=".4s">
         <a className="media-left" href="#">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/1.jpg" alt="" /></div>

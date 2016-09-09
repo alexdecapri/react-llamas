@@ -34,7 +34,7 @@ class SpotifyContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div className="text-center">
         <h2>Spotify Container</h2>
         <SearchBar
           onSongSearch={this.songSearch} />

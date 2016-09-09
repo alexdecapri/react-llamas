@@ -6,7 +6,7 @@ class FactsContainer extends Component {
   render() {
     return (
       <div>
-        <h2>Facts Container</h2>
+        <h2 className="text-center">Facts Container</h2>
         <Facts />
       </div>
     )

@@ -7,19 +7,19 @@ const SongListItem = ({song}) => {
 
   return (
     <li className="list-group-item">
-      <iframe src={songPreview}></iframe>
+      <div>
+        <a href={song.external_urls.spotify}>
+          <img className="album-cover" src={imageUrl} />
+        </a>
+      </div>
+      <div>
+        {song.name} by {song.artists[0].name}
+      </div>
+      <div>
+        Don't have Spotify? Listen to this <a href={song.preview_url}>preview</a>.
+      </div>
     </li>
   )
 }
 
 export default SongListItem;
-
-
-/*
-<div>
-  <img className="album-cover" src={imageUrl} />
-</div>
-<div>
-  {song.name} by {song.artists[0].name}
-</div>
-*/

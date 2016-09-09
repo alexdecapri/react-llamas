@@ -11,10 +11,7 @@ class SearchBar extends Component {
     }
   }
 
-  onInputChange(term) {
-    this.setState({term});
-    console.log(this.state.term);
-  }
+
 
   render() {
     return (
@@ -23,8 +20,17 @@ class SearchBar extends Component {
           placeholder="Search Spotify for a song..."
           value={this.state.term}
           onChange={event => this.onInputChange(event.target.value)} />
+        <button className="btn btn-success">Search</button>
       </div>
     )
+  }
+
+  onInputChange(event) {
+    var term = event;
+    this.setState({term});
+    // setTimeout(() => {
+    //      console.log('this.state.term', this.state.term);
+    // });
   }
 
 }

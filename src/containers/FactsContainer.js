@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 import Facts from '../components/facts';
 
 const style = {
-  marginTop: "50px"
+  marginTop: "80px"
 };
 
 class FactsContainer extends Component {
   render() {
     return (
       <div>
-        <h2 style={style} className="text-center">Facts Container</h2>
+        <h2 style={style} className="text-center">Top 10 Llama Facts!</h2>
         <Facts />
       </div>
     )

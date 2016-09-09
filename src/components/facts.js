@@ -2,7 +2,7 @@ import React from 'react';
 
 function Facts () {
   return (
-    <div className="col-sm-8 col-sm-offset-2">
+    <div className="col-sm-6 col-sm-offset-3">
       <div className="media wow fadeInUp" data-wow-delay=".4s">
         <a className="media-left" href="#">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/1.jpg" alt="" /></div>
@@ -18,7 +18,7 @@ function Facts () {
         </a>
         <div className="media-body">
           <h4 className="media-heading">Fact #2</h4>
-          Correcting a common misbelief, llamas actualy do NOT have humps.
+          Contrary to a common misbelief, llamas actually do NOT have humps.
         </div>
       </div>
       <div className="media wow fadeInUp" data-wow-delay=".4s">

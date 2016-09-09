@@ -10,9 +10,6 @@ const style = {
    backgroundSize: "cover"
  };
 
- const styleForTop = {
-   marginTop: "50px"
- };
 
 class HomeContainer extends Component {
 
@@ -23,12 +20,11 @@ class HomeContainer extends Component {
         className="text-center"
         style={style}>
         <h1
-          className="text-center"
-          style={styleForTop}>
+          className="text-center">
           Welcome to React Llamas</h1>
-        <h3>A quick reference for all you would (n)ever need to know about these majestic animals.</h3>
-        <Link to="facts"><button className="btn btn-primary">Show me some facts!</button></Link>
-        <Link to="playlist"><button className="btn btn-primary">I'm already a llama expert- what else ya got?</button></Link>
+        <div className="h3-container"><h3 className="text-center">A quick reference for all you would (n)ever need to know about these majestic animals.</h3></div>
+        <Link to="facts"><button type="button" className="home-btn btn btn-primary outline">Show me some facts!</button></Link>
+        <Link to="playlist"><button type="button" className="home-btn btn btn-primary outline">Llama expert here: I want more!</button></Link>
       </div>
     )
   }

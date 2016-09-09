@@ -10,6 +10,8 @@ class SpotifyContainer extends Component {
   constructor(props) {
     super(props)
 
+    this.songSearch = this.songSearch.bind(this);
+
     this.state = {
       songs: []
     }
@@ -34,7 +36,9 @@ class SpotifyContainer extends Component {
     return (
       <div>
         <h2>Spotify Container</h2>
-        <SearchBar onSongSearch={this.songSearch} />
+        <SearchBar
+          onSongSearch={this.songSearch}
+          songs={this.state.songs} />
         <SongList />
       </div>
     )

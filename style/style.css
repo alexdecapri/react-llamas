@@ -8,3 +8,8 @@
   overflow: hidden;
   border-radius: 3px;
 }
+
+.album-cover {
+  height: 64px;
+  width: 64px;
+}

@@ -1,8 +1,18 @@
 import React from 'react';
 
-const SongListItem = () => {
+const SongListItem = ({song}) => {
+
+  const imageUrl = song.album.images[0].url;
+
   return (
-    <h2>SongListItem - lots of songs here</h2>
+    <li className="list-group-item">
+      <div className="video-list media">
+        <img className="media-object album-cover" src={imageUrl} />
+      </div>
+      <div className="media-body">
+        <div className="media-heading">{song.name}</div>
+      </div>
+    </li>
   )
 }
 

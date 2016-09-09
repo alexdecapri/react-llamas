@@ -21,14 +21,14 @@ class SearchBar extends Component {
     return (
       <div className="search-bar">
         <form onSubmit={this.handleSubmit}>
-        <input
-          placeholder="Search Spotify for a song..."
-          value={this.state.term}
-          onChange={event => this.onInputChange(event.target.value)} />
-        <button
-          className="btn btn-success">
-          Search
-        </button>
+          <input
+            placeholder="Search Spotify for a song..."
+            value={this.state.term}
+            onChange={event => this.onInputChange(event.target.value)} />
+          <button
+            className="btn btn-success">
+            Search
+          </button>
         </form>
       </div>
     )

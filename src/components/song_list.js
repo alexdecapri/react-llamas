@@ -1,10 +1,21 @@
 import React from 'react';
 
-// import SongListItem from '../components/song_list_item';
+import SongListItem from '../components/song_list_item';
 
-const SongList = () => {
+const SongList = (props) => {
+  const songItems = props.songs.map((song) => {
+    return <SongListItem
+      key={song.id}
+      song={song} />
+  });
+
   return (
-    <h2>SongList</h2>
+    <div>
+      <h2>SongList</h2>
+      <ul className="col-md-4 list-group">
+        {songItems}
+      </ul>
+    </div>
   )
 }
 

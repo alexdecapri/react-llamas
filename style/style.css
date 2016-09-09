@@ -28,8 +28,13 @@ body, html {
 
 h1 {
   font-family: 'Gloria Hallelujah', cursive;
-  margin-top: 80px;
   font-size: 48px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 9px;
+  margin: 0 auto;
+  margin-top: 20%;
+  padding: 4px 5px 10px 5px;
+  width: 60%;
 }
 
 h3 {

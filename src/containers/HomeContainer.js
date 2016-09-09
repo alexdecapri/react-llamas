@@ -17,7 +17,7 @@ class HomeContainer extends Component {
   render() {
     return (
       <div
-        className="text-center"
+        className="text-center home-container"
         style={style}>
         <h1
           className="text-center">

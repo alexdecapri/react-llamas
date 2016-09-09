@@ -19,7 +19,7 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div className="search-bar">
+      <div className="search-bar text-center">
         <form onSubmit={this.handleSubmit}>
           <input
             placeholder="Search Spotify for a song..."

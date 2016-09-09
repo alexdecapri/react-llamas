@@ -36,9 +36,9 @@ body {
   background: url('../src/images/cover.jpg') no-repeat center;
 }
 
-body, html {
+/*body, html {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-}
+}*/

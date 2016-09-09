@@ -11,7 +11,7 @@ const SongList = (props) => {
 
   return (
     <div>
-      <h2>SongList</h2>
+      <h2 className="text-center">SongList</h2>
       <ul className="col-sm-8 col-sm-offset-2 list-group">
         {songItems}
       </ul>

@@ -19,7 +19,7 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div className="search-bar text-center">
+      <div className="search-bar text-center row">
         <form onSubmit={this.handleSubmit} className="form-inline">
           <div className="form-group">
           <input
@@ -29,7 +29,7 @@ class SearchBar extends Component {
             value={this.state.term}
             onChange={event => this.onInputChange(event.target.value)} />
           <button
-            className="btn btn-success">
+            className="btn btn-success outline special">
             Search
           </button>
           </div>

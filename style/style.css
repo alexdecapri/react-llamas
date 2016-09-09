@@ -24,6 +24,12 @@ body, html {
 
 #input {
   width: 200px;
+  position: relative;
+  display: inline-block;
+}
+
+form {
+  margin-bottom: 15px;
 }
 
 h1 {
@@ -39,6 +45,12 @@ h1 {
 
 h2, h4, .media-body {
   font-family: 'Gloria Hallelujah', cursive;
+}
+
+h2 {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 15px;
 }
 
 h3 {
@@ -61,6 +73,16 @@ h3 {
   background-color:white;
   border-radius: 3px;
   padding: 2px;
+}
+
+.search-bar {
+  margin-top: 30px;
+}
+
+@media(max-width: 768px) {
+  h2 {
+    width: 94%;
+  }
 }
 
 /* BOOTSTRAP BUTTON MODIFICATIONS */
@@ -129,6 +151,29 @@ h3 {
     color: #007299;
     box-shadow: none;
 }
+
+.btn-success.outline {
+    border: 2px solid #449D44;
+    color: #449D44;
+}
+.btn-success.outline:hover, .open > .dropdown-toggle.btn-success {
+    color: white;
+    border-color: #449D44;
+    background: #449D44;
+}
+/*.btn-success.outline:active, .btn-success.outline.active {
+    border-color: #449D44;
+    color: white;
+    box-shadow: none;
+}*/
+
+.special {
+  padding: 7px 18px !important;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+
 
 /***********************
   CUSTON BTN VALUES

@@ -34,7 +34,7 @@ class SpotifyContainer extends Component {
     return (
       <div>
         <h2>Spotify Container</h2>
-        <SearchBar />
+        <SearchBar onSongSearch={this.songSearch} />
         <SongList />
       </div>
     )

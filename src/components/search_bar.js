@@ -11,26 +11,38 @@ class SearchBar extends Component {
     }
   }
 
+  componentWillMount() {
 
+  }
 
   render() {
     return (
       <div className="search-bar">
+        <form>
         <input
           placeholder="Search Spotify for a song..."
           value={this.state.term}
           onChange={event => this.onInputChange(event.target.value)} />
-        <button className="btn btn-success">Search</button>
+        <button
+          onSubmit={this.handleSongSearch(this.state.term)}
+          className="btn btn-success">
+          Search
+        </button>
+        </form>
       </div>
     )
   }
 
+  handleSongSearch(song) {
+    this.props.onSongSearch(song);
+  }
+
   onInputChange(event) {
-    var term = event;
+    let term = event;
     this.setState({term});
-    // setTimeout(() => {
-    //      console.log('this.state.term', this.state.term);
-    // });
+    setTimeout(() => {
+         console.log('this.state.term', this.state.term);
+    });
   }
 
 }

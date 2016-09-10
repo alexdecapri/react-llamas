@@ -12,7 +12,7 @@ const SongListItem = ({song}) => {
           <img className="album-cover media-object" src={imageUrl} />
         </a>
         <div className="media-body">
-          <h4 className="media-heading">{song.name}</h4>
+          <a href={song.external_urls.spotify}><h4 className="media-heading">{song.name}</h4></a>
           <h5 className="media-heading">{song.artists[0].name}</h5>
           Don't have Spotify? Listen to this <a href={song.preview_url}>preview</a>.
         </div>

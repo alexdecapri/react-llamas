@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-// term is one character behind what it should be
-
 class SearchBar extends Component {
   constructor(props) {
     super(props)
@@ -12,10 +10,6 @@ class SearchBar extends Component {
       term: ''
     }
   }
-
-  // componentWillMount() {
-  //   this.props.onSongSearch('rihanna')
-  // }
 
   render() {
     return (
@@ -43,11 +37,6 @@ class SearchBar extends Component {
     this.props.onSongSearch(this.state.term);
     this.setState({ term: '' });
   }
-
-  // handleSongSearch() {
-  //   this.props.onSongSearch('rihanna');
-  //   console.log(this.props.songs)
-  // }
 
   onInputChange(event) {
     let term = event;

@@ -32,10 +32,6 @@ class SpotifyContainer extends Component {
     })
   }
 
-  // componentDidMount() {
-  //   this.songSearch('rihanna');
-  // }
-
   render() {
     return (
       <div>

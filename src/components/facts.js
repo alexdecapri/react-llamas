@@ -3,7 +3,7 @@ import React from 'react';
 function Facts () {
   return (
     <div className="col-sm-8 col-sm-offset-2">
-      <div className="media wow fadeInUp">
+      <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/1.jpg" alt="" /></div>
         </a>
@@ -12,7 +12,7 @@ function Facts () {
           The llama is the South American relative of the camel.
         </div>
       </div>
-      <div className="media wow fadeInUp">
+      <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/2.jpg" alt="" /></div>
         </a>
@@ -21,7 +21,7 @@ function Facts () {
           Contrary to a common misbelief, llamas actually do NOT have humps.
         </div>
       </div>
-      <div className="media wow fadeInUp">
+      <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/3.jpg" alt="" /></div>
         </a>
@@ -30,7 +30,7 @@ function Facts () {
           Making them very useful animals, llamas don't require a lot of water.
         </div>
       </div>
-      <div className="media wow fadeInUp">
+      <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/4.png" alt="" /></div>
         </a>
@@ -39,7 +39,7 @@ function Facts () {
           Llamas have been domesticated and used by the peoples of the Andes Mountains for centuries.
         </div>
       </div>
-      <div className="media wow fadeInUp">
+      <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/5.jpg" alt="" /></div>
         </a>
@@ -48,7 +48,7 @@ function Facts () {
           Llamas serve people primarily to carry things across rough terrain.  The average llama is saddled with loads of 50-75 pounds.
         </div>
       </div>
-      <div className="media wow fadeInUp">
+      <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/6.jpg" alt="" /></div>
         </a>
@@ -57,7 +57,7 @@ function Facts () {
           Llamas can cover up to 20 miles in a single day, but an overloaded llama will simply refuse to move.
         </div>
       </div>
-      <div className="media wow fadeInUp">
+      <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/7.jpg" alt="" /></div>
         </a>
@@ -66,7 +66,7 @@ function Facts () {
           When these animals are angry, they like to spit, hiss, and even kick at their owners.
         </div>
       </div>
-      <div className="media wow fadeInUp">
+      <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/8.jpg" alt="" /></div>
         </a>
@@ -75,7 +75,7 @@ function Facts () {
           Their diet consists of grass, which they regurgitate and chew as cud until they are ready to fully digest.
         </div>
       </div>
-      <div className="media wow fadeInUp">
+      <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/9.jpg" alt="" /></div>
         </a>
@@ -84,7 +84,7 @@ function Facts () {
           Leather is made from their hides, and their wool is crafted into ropes, rugs, and fabrics.
         </div>
       </div>
-      <div className="media wow fadeInUp">
+      <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/10.jpg" alt="" /></div>
         </a>

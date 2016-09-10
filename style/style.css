@@ -103,11 +103,11 @@ h3 {
   padding: 2px;
 }
 
-.wow {
+.scale-effect {
   transition: transform 0.4s;
 }
 
-.wow:hover {
+.scale-effect:hover {
   transform: scale(1.1);
 }
 

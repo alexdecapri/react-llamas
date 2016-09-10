@@ -6,7 +6,7 @@ const SongListItem = ({song}) => {
   const songPreview = `https://embed.spotify.com/?uri=${song.uri}`;
 
   return (
-    <li className="list-group-item">
+    <li className="list-group-item wow fadeInUp">
       <div className="media">
         <a className="media-left" href={song.external_urls.spotify} target="_blank">
           <img className="album-cover media-object" src={imageUrl} />

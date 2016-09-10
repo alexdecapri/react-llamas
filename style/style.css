@@ -20,6 +20,7 @@ body, html {
 .album-cover {
   height: 64px;
   width: 64px;
+  border-radius: 3px;
 }
 
 .about-bullets {

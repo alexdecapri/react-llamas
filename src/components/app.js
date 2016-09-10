@@ -5,14 +5,13 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 export default class App extends Component {
   render() {
     return (
-      <div className="appear">
+      <div>
         <NavBar />
         <ReactCSSTransitionGroup
-          className="appear"
           transitionName="appear"
           transitionEnterTimeout={500}
-          transitionLeaveTimout={500}>
-            {React.cloneElement(this.props.children, {key: this.props.location.path})}
+          transitionLeaveTimeout={500}>
+            {React.cloneElement(this.props.children, {key: this.props.location.pathname})}
         </ReactCSSTransitionGroup>
       </div>
     );

@@ -4,7 +4,7 @@ function Facts () {
   return (
     <div className="col-sm-6 col-sm-offset-3">
       <div className="media wow fadeInUp">
-        <a className="media-left" href="#">
+        <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/1.jpg" alt="" /></div>
         </a>
         <div className="media-body">
@@ -13,7 +13,7 @@ function Facts () {
         </div>
       </div>
       <div className="media wow fadeInUp">
-        <a className="media-left" href="#">
+        <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/2.jpg" alt="" /></div>
         </a>
         <div className="media-body">
@@ -22,7 +22,7 @@ function Facts () {
         </div>
       </div>
       <div className="media wow fadeInUp">
-        <a className="media-left" href="#">
+        <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/3.jpg" alt="" /></div>
         </a>
         <div className="media-body">
@@ -31,7 +31,7 @@ function Facts () {
         </div>
       </div>
       <div className="media wow fadeInUp">
-        <a className="media-left" href="#">
+        <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/4.png" alt="" /></div>
         </a>
         <div className="media-body">
@@ -40,7 +40,7 @@ function Facts () {
         </div>
       </div>
       <div className="media wow fadeInUp">
-        <a className="media-left" href="#">
+        <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/5.jpg" alt="" /></div>
         </a>
         <div className="media-body">
@@ -49,7 +49,7 @@ function Facts () {
         </div>
       </div>
       <div className="media wow fadeInUp">
-        <a className="media-left" href="#">
+        <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/6.jpg" alt="" /></div>
         </a>
         <div className="media-body">
@@ -58,7 +58,7 @@ function Facts () {
         </div>
       </div>
       <div className="media wow fadeInUp">
-        <a className="media-left" href="#">
+        <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/7.jpg" alt="" /></div>
         </a>
         <div className="media-body">
@@ -67,7 +67,7 @@ function Facts () {
         </div>
       </div>
       <div className="media wow fadeInUp">
-        <a className="media-left" href="#">
+        <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/8.jpg" alt="" /></div>
         </a>
         <div className="media-body">
@@ -76,7 +76,7 @@ function Facts () {
         </div>
       </div>
       <div className="media wow fadeInUp">
-        <a className="media-left" href="#">
+        <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/9.jpg" alt="" /></div>
         </a>
         <div className="media-body">
@@ -85,7 +85,7 @@ function Facts () {
         </div>
       </div>
       <div className="media wow fadeInUp">
-        <a className="media-left" href="#">
+        <a className="media-left">
           <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/10.jpg" alt="" /></div>
         </a>
         <div className="media-body">

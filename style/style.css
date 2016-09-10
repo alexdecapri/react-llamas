@@ -103,6 +103,14 @@ h3 {
   padding: 2px;
 }
 
+.wow {
+  transition: transform 0.4s;
+}
+
+.wow:hover {
+  transform: scale(1.1);
+}
+
 .list-group-item {
   max-width: 600px;
   margin: 0 auto;

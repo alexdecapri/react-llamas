@@ -24,7 +24,7 @@ class HomeContainer extends Component {
           Welcome to React Llamas</h1>
         <div className="h3-container"><h3 className="text-center">A quick reference for all you would (n)ever need to know about these majestic animals.</h3></div>
         <Link to="facts"><button type="button" className="home-btn btn btn-primary outline">Show me some facts!</button></Link>
-        <Link to="playlist"><button type="button" className="home-btn btn btn-primary outline">Llama expert here: I want more!</button></Link>
+        <Link to="playlist"><button type="button" className="home-btn btn btn-primary outline btn-home-2">Llama expert here: I want more!</button></Link>
       </div>
     )
   }

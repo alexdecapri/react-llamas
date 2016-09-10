@@ -8,13 +8,13 @@ const SongListItem = ({song}) => {
   return (
     <li className="list-group-item">
       <div className="media">
-        <a className="media-left" href={song.external_urls.spotify}>
+        <a className="media-left" href={song.external_urls.spotify} target="_blank">
           <img className="album-cover media-object" src={imageUrl} />
         </a>
         <div className="media-body">
-          <a href={song.external_urls.spotify}><h4 className="media-heading">{song.name}</h4></a>
+          <a href={song.external_urls.spotify} target="_blank"><h4 className="media-heading">{song.name}</h4></a>
           <h5 className="media-heading">{song.artists[0].name}</h5>
-          Don't have Spotify? Listen to this <a href={song.preview_url}>preview</a>.
+          Don't have Spotify? Listen to this <a href={song.preview_url} target="_blank">preview</a>.
         </div>
       </div>
     </li>

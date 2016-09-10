@@ -28,13 +28,13 @@ class SpotifyContainer extends Component {
       this.setState({
         songs: response.data.tracks.items
       });
-      console.log('SpotifyContainer this.state.songs', this.state.songs);
+      // console.log('SpotifyContainer this.state.songs', this.state.songs);
     })
   }
 
   render() {
     return (
-      <div>
+      <div className="wow fadeIn">
         <h2
           className="text-center"
           style={style}>

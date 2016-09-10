@@ -9,7 +9,7 @@ const style = {
 class FactsContainer extends Component {
   render() {
     return (
-      <div>
+      <div className="wow fadeIn">
         <h2 style={style} className="text-center">Top 10 Llama Facts!</h2>
         <Facts />
       </div>

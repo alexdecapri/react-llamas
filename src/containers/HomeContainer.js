@@ -17,7 +17,7 @@ class HomeContainer extends Component {
   render() {
     return (
       <div
-        className="text-center home-container"
+        className="text-center home-container wow fadeIn"
         style={style}>
         <h1
           className="text-center">

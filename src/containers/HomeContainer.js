@@ -6,7 +6,7 @@ const style = {
    position: "absolute",
    width: "100%",
    height: "100%",
-   background: "url('src/images/cover.jpg') no-repeat center",
+   background: "url('/images/cover.jpg') no-repeat center",
    backgroundSize: "cover"
  };
 

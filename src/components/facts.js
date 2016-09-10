@@ -5,7 +5,7 @@ function Facts () {
     <div className="col-sm-8 col-sm-offset-2">
       <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
-          <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/1.jpg" alt="" /></div>
+          <div className="ll-container"><img className="media-object ll-thumbnail" src="/images/1.jpg" alt="" /></div>
         </a>
         <div className="media-body">
           <h4 className="media-heading">Fact #1</h4>
@@ -14,7 +14,7 @@ function Facts () {
       </div>
       <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
-          <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/2.jpg" alt="" /></div>
+          <div className="ll-container"><img className="media-object ll-thumbnail" src="/images/2.jpg" alt="" /></div>
         </a>
         <div className="media-body">
           <h4 className="media-heading">Fact #2</h4>
@@ -23,7 +23,7 @@ function Facts () {
       </div>
       <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
-          <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/3.jpg" alt="" /></div>
+          <div className="ll-container"><img className="media-object ll-thumbnail" src="/images/3.jpg" alt="" /></div>
         </a>
         <div className="media-body">
           <h4 className="media-heading">Fact #3</h4>
@@ -32,7 +32,7 @@ function Facts () {
       </div>
       <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
-          <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/4.png" alt="" /></div>
+          <div className="ll-container"><img className="media-object ll-thumbnail" src="/images/4.png" alt="" /></div>
         </a>
         <div className="media-body">
           <h4 className="media-heading">Fact #4</h4>
@@ -41,7 +41,7 @@ function Facts () {
       </div>
       <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
-          <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/5.jpg" alt="" /></div>
+          <div className="ll-container"><img className="media-object ll-thumbnail" src="/images/5.jpg" alt="" /></div>
         </a>
         <div className="media-body">
           <h4 className="media-heading">Fact #5</h4>
@@ -50,7 +50,7 @@ function Facts () {
       </div>
       <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
-          <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/6.jpg" alt="" /></div>
+          <div className="ll-container"><img className="media-object ll-thumbnail" src="/images/6.jpg" alt="" /></div>
         </a>
         <div className="media-body">
           <h4 className="media-heading">Fact #6</h4>
@@ -59,7 +59,7 @@ function Facts () {
       </div>
       <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
-          <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/7.jpg" alt="" /></div>
+          <div className="ll-container"><img className="media-object ll-thumbnail" src="/images/7.jpg" alt="" /></div>
         </a>
         <div className="media-body">
           <h4 className="media-heading">Fact #7</h4>
@@ -68,7 +68,7 @@ function Facts () {
       </div>
       <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
-          <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/8.jpg" alt="" /></div>
+          <div className="ll-container"><img className="media-object ll-thumbnail" src="/images/8.jpg" alt="" /></div>
         </a>
         <div className="media-body">
           <h4 className="media-heading">Fact #8</h4>
@@ -77,7 +77,7 @@ function Facts () {
       </div>
       <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
-          <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/9.jpg" alt="" /></div>
+          <div className="ll-container"><img className="media-object ll-thumbnail" src="/images/9.jpg" alt="" /></div>
         </a>
         <div className="media-body">
           <h4 className="media-heading">Fact #9</h4>
@@ -86,7 +86,7 @@ function Facts () {
       </div>
       <div className="media wow fadeInUp scale-effect">
         <a className="media-left">
-          <div className="ll-container"><img className="media-object ll-thumbnail" src="src/images/10.jpg" alt="" /></div>
+          <div className="ll-container"><img className="media-object ll-thumbnail" src="/images/10.jpg" alt="" /></div>
         </a>
         <div className="media-body">
           <h4 className="media-heading">Fact #10</h4>

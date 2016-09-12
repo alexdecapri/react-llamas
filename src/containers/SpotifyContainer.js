@@ -38,7 +38,7 @@ class SpotifyContainer extends Component {
         <h2
           className="text-center"
           style={style}>
-          Whether you're loading up your camel or already on a long journey with your goofy animal friend, listen to some songs to get in the groove.</h2>
+          Whether you're loading up your llama or already on a long journey with your goofy animal friend, listen to some songs to get in the groove.</h2>
         <SearchBar
           onSongSearch={this.songSearch} />
         <SongList

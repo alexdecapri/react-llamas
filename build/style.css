@@ -106,10 +106,16 @@ h3 {
 
 .scale-effect {
   transition: transform 0.4s;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  -ms-transition: -ms-transform 0.4s;
 }
 
 .scale-effect:hover {
   transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
 }
 
 .list-group-item {

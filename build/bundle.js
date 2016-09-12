@@ -27777,7 +27777,7 @@
 	          {
 	            className: 'text-center',
 	            style: style },
-	          'Whether you\'re loading up your camel or already on a long journey with your goofy animal friend, listen to some songs to get in the groove.'
+	          'Whether you\'re loading up your llama or already on a long journey with your goofy animal friend, listen to some songs to get in the groove.'
 	        ),
 	        _react2.default.createElement(_search_bar2.default, {
 	          onSongSearch: this.songSearch }),
